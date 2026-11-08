@@ -1,34 +1,36 @@
 # Neon Strike FPS
 
-A small Python desktop FPS prototype built with Ursina.
+A standalone desktop first-person shooter built with Python and Ursina. The game is not a browser app.
 
-## Requirements
+## Requirements and launch
 
 - Python 3.10+
 - pip
 
-## Install
-
 ```bash
 python -m venv .venv
-source .venv/bin/activate
-pip install ursina
-```
-
-## Run
-
-```bash
+# Windows PowerShell: .venv\\Scripts\\Activate.ps1
+# macOS/Linux: source .venv/bin/activate
+python -m pip install -r requirements.txt
 python main.py
 ```
 
 ## Controls
 
-- W, A, S, D: move
-- Mouse: look around
-- Left click: shoot
-- Space: jump
-- R: restart after death
+- **WASD** — move
+- **Mouse** — look and aim
+- **Left click** — fire
+- **1 / 2** — switch pistol / rifle
+- **R** — reload
+- **Space** — jump
+- **Esc** — pause / resume
 
-## Goal
+## Features
 
-Survive waves of enemies, defeat them, and keep your score climbing.
+- Start, pause, and game-over screens
+- Pistol and rifle with separate magazines, reserve ammo, reload times, and fire rates
+- Larger 120-by-120 arena with cover and landmarks
+- Enemies that pursue, flank at close range, and try to navigate around obstacles
+- Waves, score, health HUD, hit marker, and synthesized sound effects (no external sound files needed)
+
+Survive each wave and keep your score climbing.
