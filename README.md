@@ -1,6 +1,6 @@
 # Neon Strike FPS
 
-A standalone desktop first-person shooter built with Python and Ursina. The game is not a browser app.
+A standalone desktop first-person shooter built with Python and Ursina. This is not a browser app.
 
 ## Requirements and launch
 
@@ -12,8 +12,10 @@ python -m venv .venv
 # Windows PowerShell: .venv\\Scripts\\Activate.ps1
 # macOS/Linux: source .venv/bin/activate
 python -m pip install -r requirements.txt
-python main.py
+python neon_strike.py
 ```
+
+`neon_strike.py` is the game launcher. `main.py` is retained only as the original implementation file for backward compatibility.
 
 ## Controls
 
