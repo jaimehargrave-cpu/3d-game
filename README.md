@@ -2,10 +2,7 @@
 
 A standalone desktop first-person shooter built with Python and Ursina. This is not a browser app.
 
-## Requirements and launch
-
-- Python 3.10+
-- pip
+## Run
 
 ```bash
 python -m venv .venv
@@ -14,8 +11,6 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 python neon_strike.py
 ```
-
-`neon_strike.py` is the game launcher. `main.py` is retained only as the original implementation file for backward compatibility.
 
 ## Controls
 
@@ -27,12 +22,6 @@ python neon_strike.py
 - **Space** — jump
 - **Esc** — pause / resume
 
-## Features
+## Presentation
 
-- Start, pause, and game-over screens
-- Pistol and rifle with separate magazines, reserve ammo, reload times, and fire rates
-- Larger 120-by-120 arena with cover and landmarks
-- Enemies that pursue, flank at close range, and try to navigate around obstacles
-- Waves, score, health HUD, hit marker, and synthesized sound effects (no external sound files needed)
-
-Survive each wave and keep your score climbing.
+The game now features assembled low-poly gun models, a visible muzzle flash, animated reload and magazine movement, recoil and movement sway, head bob, colored arena lighting, and the larger arena with cover. Sound effects are synthesized at launch, so no additional asset downloads are required.
